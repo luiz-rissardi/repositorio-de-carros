@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    background-color: black;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 2%;
+    color: white;
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 0 10px 4px yellow;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    margin: 2vh;
+    font-size: 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    font-size: 2rem;
+    left: 10%;
+    margin: auto;
+}
+
+.content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.conteiner {
+    width: 100%;
+    background-color: black;
+}
+
+.slide {
+    width: 95%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.slide-card {
+    width: 99%;
+    height: 50%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.prindContent {
+    width: 100%;
+}
+
+.wiki {
+    width: 60%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 5%;
+    background: yellow;
+    border-radius: 20px;
+}
+
+input {
+    position: relative;
+    top: 40%;
+    width: 50%;
+    height: 5vh;
+    display: flex;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+    outline: 0;
+}
+
+input::placeholder {
+    text-align: center;
+    color: black;
+}
+
+.contentCard {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    background-color: black;
+    border: 1px solid yellow;
+    box-shadow: 0 0 4px 4px yellow;
+}
+
+.card {
+    max-width: 300px;
+    width: 100%;
+    height: 55vh;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid yellow;
+    padding: 2%;
+}
+
+.desc {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+p {
+    padding: 1%;
+    margin: auto;
+}
+
+.btn {
+    margin: 5%;
+    width: 90%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 3rem;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 6px 6px yellow;
+    transition: 0.5s;
+}
+
+.menu,
+.menu1 {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    left: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    border: 2px solid yellow;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.carstore {
+    width: 70%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    border: 1px solid yellow;
+}
+
+span {
+    margin: auto;
+    margin-top: 2%;
+    font-size: 4rem;
+    color: antiquewhite;
+}
+
+#comprar {
+    padding: 1%;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    color: yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    transition: 0.5s;
+}
+
+#voltar {
+    padding: 1%;
+    margin: 5%;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    color: yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    transition: 0.5s;
+}
+
+#voltar:hover,
+#comprar:hover,
+#finalizar:hover {
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 6px 6px yellow;
+    transition: 0.5s;
+}
+
+.menuButton {
+    max-width: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#preco {
+    max-width: 300px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar2 {
+    display: none;
+}
+
+.navbar2:hover {
+    cursor: pointer;
+}
+
+.menumim {
+    width: 30px;
+    height: 20px;
+    margin-top: 10%;
+    background-color: white;
+}
+
+.vendas {
+    width: 100%;
+}
+
+#finalizar {
+    padding: 1%;
+    margin: 5%;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    color: yellow;
+    background: transparent;
+    border: 1px solid yellow;
+    transition: 0.5s;
+}
+
+#valor,
+#total {
+    font-size: 2rem;
+}
+
+.dataStore {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 4%;
+    padding: 1%;
+    background-color: black;
+    border: 1px solid yellow;
+    color: yellow;
+    text-align: center;
+}
+
+
+@media(max-width:1024px) {
+    .contentCard {
+        display: block;
+        padding: 5%;
+    }
+
+    .card {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media(max-width:778px) {
+    span {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:426px) {
+
+    #valor,
+    #total {
+        font-size: 1rem;
+    }
+
+    .carstore {
+        width: 90%;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    nav ul {
+        width: 50%;
+    }
+
+    nav ul li a {
+        display: flex;
+        justify-content: center;
+        margin-top: 40%;
+    }
+
+    .menu,
+    .menu1 {
+        width: 100%;
+        color: white;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+        display: flex;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navbar2 {
+        display: block;
+    }
+
+    .menumim {
+        width: 40px;
+        height: 1vh;
+        margin-top: 10%;
+        background-color: white;
+    }
+}
